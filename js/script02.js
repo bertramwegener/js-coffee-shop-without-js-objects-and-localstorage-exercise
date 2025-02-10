@@ -40,7 +40,7 @@ function updateUIFromCart() {
 }
 
 
-function addToCart(product){
+function addToCart(product) {
     let product = cart.find( item => item.type === product);
 
     if (product) {
